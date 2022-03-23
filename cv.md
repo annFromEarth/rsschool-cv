@@ -21,10 +21,7 @@ void loop () {
   colorWipe(strip.Color(255, 0, 0), 10*(60+t3));  // red
   colorWipe(strip.Color(255, 0, 180), 10*(300+t2)); // yellow-ish
   }
-
-
 ````
-
 ## Skills
 * 2d: Adobe Photoshop, Adobe Illustrator
 * 3d: ZBrush, 3dsMax
