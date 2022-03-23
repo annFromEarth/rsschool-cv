@@ -1,1 +1,1 @@
-# rsschool-cv
+https://annfromearth.github.io/rsschool-cv/
