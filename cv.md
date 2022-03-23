@@ -1,7 +1,11 @@
+
 # Anna Dvor
+
+
+*artist* * *sculptor*   
+[*Link to my art website*](www.annadvorart.com)
 ****
-*artist* * *sculptor* *   www.annadvorart.com
-****
+
 ### Why programming?
 I decided to start learning programming in February 2022 to get my head busy and to stop thinking about the war. Before, I did only have a little experience with programming - in one of my art projects Arduino controllers were used to empower the lightning system.  
 
@@ -22,9 +26,14 @@ void loop () {
   colorWipe(strip.Color(255, 0, 180), 10*(300+t2)); // yellow-ish
   }
 ````
-## Skills
+### Skills
 * 2d: Adobe Photoshop, Adobe Illustrator
 * 3d: ZBrush, 3dsMax
 
-## Languages
+### Languages
 Russian - native * English - advanced
+
+### Contact
+
+* discord: @annFromEarth#5200
+* telegram: @anna_dvor
