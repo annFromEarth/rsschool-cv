@@ -1,0 +1,38 @@
+*
+header{
+    background-color: #211f20;
+}
+body 
+{
+    background: #f6f6f6;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    margin:auto
+}
+.startscreen {
+    background-color: #211f20;
+    height: 908px;
+}
+.about {
+    background-color: #ffffff;
+    height: 588px;
+}
+.pets {
+    background-color: #f6f6f6;
+    height: 877px;
+}
+.help {
+    background-color: #ffffff;
+    height: 611px;
+}
+.donation {
+    background-color: #f6f6f6;
+    height: 462px;
+}
+footer{
+    background-color: #211f20;
+    height: 350px;
+}
