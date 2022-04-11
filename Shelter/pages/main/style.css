@@ -34,27 +34,6 @@ body
     height: 728px;
     display: flex;
 }
-.about {
-    padding: 0px 40px;
-    background-color: #ffffff;
-    height: 588px;
-    display: flex;
-}
-.pets {
-    padding: 0px 40px;
-    background-color: #f6f6f6;
-    height: 877px;
-}
-.help {
-    padding: 0px 40px;
-    background-color: #ffffff;
-    height: 611px;
-}
-.donation {
-    padding: 0px 40px;
-    background-color: #f6f6f6;
-    height: 462px;
-}
 .logo {
     display: flex;
     flex-direction: column; 
@@ -90,6 +69,12 @@ body
 .StartText {
     position: relative;
 }
+.about {
+    padding: 0px 40px;
+    background-color: #ffffff;
+    height: 588px;
+    display: flex;
+}
 .containerAboutImage {
     flex: 1;
     display: flex;
@@ -119,6 +104,21 @@ body
 .textAbout2 {
     position: relative;
 }
+.pets {
+    padding: 0px 40px;
+    background-color: #f6f6f6;
+    height: 877px;
+}
+.help {
+    padding: 0px 40px;
+    background-color: #ffffff;
+    height: 611px;
+}
+.donation {
+    padding: 0px 40px;
+    background-color: #f6f6f6;
+    height: 462px;
+}
 footer{
     background: linear-gradient(.25turn, #5B483A, #211f20);
     height: 350px;
@@ -126,12 +126,50 @@ footer{
     padding: 0px 40px;
     margin:auto
 }
+.footer {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    height: 350px;
+    width: 1200px;
+}
+.contactsColumn {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2.5em;
+    justify-items:left;
+    margin-top: 3em;
+   
+}
+.contactsItem {
+    display: flex;
+    flex-direction: row;
+    width: 25em;   
+}
+.contactsHeading {
+   width: 18em;
+  
+}
+.contactsText {
+    align-self: center;
+}
+.contactsIcon{
+    align-self: center;
+}
+.contactsImage {
+   align-self:flex-end;
+    margin:0;
+    position: relative;
+    left: 1.3em;
+
+}
 h1 {
     font-family: 'Libre Baskerville', serif;
-    font-size: 2.3em;
+    font-size: 1.65em;
     letter-spacing: 0.1em;
     margin-top: 0.1em;
     margin-bottom: 0.1em;
+    font-weight: 400;
 }
 h2 {
     font-family: 'Libre Franklin', sans-serif;
@@ -154,6 +192,15 @@ h4 {
     margin-top: 0.35em;
     margin-bottom: 0.35em;
 }
+h6 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    color: #F1CDB3;
+    margin: 1.6em;
+}
 p {
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 400;
@@ -173,5 +220,15 @@ A:hover {
     color:#F1CDB3;
     text-decoration: underline;
 }
+
+/*
+A[href^="mailto"]::before {
+    content: ;
+    padding-right: 1em;
+    vertical-align: middle;
+}
+A[href^="phone"]::before
+A[href^="adress"]::before
+
 
 /*font-family: 'Domine', serif;*/
