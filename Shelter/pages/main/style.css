@@ -69,21 +69,12 @@ body
     justify-content: space-between;
 }
 .menu-item {
+    position: relative;
 }
-.container1 {
+.containerStartscreen {
     flex: 1;
     display: flex;
     align-items: center;
-}
-.container2 {
-    flex: 1;
-    display: flex;
-    flex-direction: column; 
-    align-self: center;
-    align-items:center;
-    position: relative;
-    top: -0.7rem;
-    left: 1.5rem;
 }
 .containerStartText {
     display: flex;
@@ -91,6 +82,35 @@ body
     justify-content: space-between;
     width: 460px;
     height: 322px;
+}
+.containerAboutImage {
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+    align-self: center;
+    align-items:center;
+    margin-left: 12em;
+    position: relative;
+    top: -0.7rem;
+    left: -4.3rem;
+}
+.containerAboutText {
+    flex:1;
+    display: flex;
+    flex-direction: column; 
+    align-self: center;
+    margin-right: 12em;
+    position: relative;
+    margin-top: -1.1em;
+}
+.textAboutHeading {
+    position: relative;
+}
+.textAbout1 {
+    position: relative;
+}
+.textAbout2 {
+    position: relative;
 }
 footer{
     background: linear-gradient(.25turn, #5B483A, #211f20);
@@ -103,31 +123,46 @@ h1 {
     font-family: 'Libre Baskerville', serif;
     font-size: 2.3em;
     letter-spacing: 0.1em;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
 }
 h2 {
-    font-family: 'Libre Franklin', sans-serif;
-    font-weight: 400;
-    font-size: 0.9em;
-}
-h3 {
     font-family: 'Libre Franklin', sans-serif;
     letter-spacing: 0.1em;
     font-weight: 400;
     font-size: 0.75em;
 }
+h3 {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 2.3em;
+    margin-top: 0.35em;
+    margin-bottom: 0.35em;
+}
+h4 {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 2.1em;
+    font-weight: 400;
+    margin-top: 0.35em;
+    margin-bottom: 0.35em;
+}
 p {
     font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 1.5;
 }
 A {
     text-decoration: none;
 }
 A:link {
-    color:#f6f6f6;
+    color:#CDCDCD;
 }
 A:visited {
-    color:#f6f6f6;
+    color:#CDCDCD;
 }
 A:hover {
     color:#F1CDB3;
     text-decoration: underline;
 }
+
+/*font-family: 'Domine', serif;*/
