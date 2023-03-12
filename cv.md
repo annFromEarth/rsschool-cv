@@ -45,3 +45,6 @@ function vowelOne(s){
 
 ----
 
+[* Momentum ] (https://annfromearth.github.io/momentum)
+
+[* Plants ] (https://rolling-scopes-school.github.io/annfromearth-JSFEPRESCHOOL2022Q4/plants/)
