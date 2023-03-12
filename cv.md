@@ -43,7 +43,6 @@ function vowelOne(s){
 -----
 ### Projects
 
-----
 
 * Momentum https://annfromearth.github.io/momentum
 
