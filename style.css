@@ -1,1 +1,15 @@
-/* hello */
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+  background: #CDCDCD;
+}
+
+h1 {
+  color: #F1CDB3;
+}
+
+p {
+  color: #FFFFFF
+}
